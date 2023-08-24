@@ -8,24 +8,24 @@
 
 @keyframes moveLuigi {
   0% {
-    transform: scaleX(1); /* Face Luigi to the right */
+    transform: scaleX(-1); /* Face Luigi to the right */
     right: -50px; /* Starting position */
   }
   10% {
-    transform: scaleX(-1);
+    transform: scaleX(1);
     right: calc(100px);
   }
   30% {
-    transform: scaleX(1);
+    transform: scaleX(-1);
     right: calc(30% + 30px);
   }
   50% {
-    transform: scaleX(-1);
+    transform: scaleX(1);
     right: calc(50% + 50px);
   }
   100% {
-    transform: scaleX(1); /* Flip Mario to face left */
-    right: calc(100% + 50px); /* Move Mario outside the screen from the right */
+    transform: scaleX(-1); /* Flip Luigi to face left */
+    right: calc(100% + 50px); /* Move Luigi outside the screen from the right */
   }
 }
 
